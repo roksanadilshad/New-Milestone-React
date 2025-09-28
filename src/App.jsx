@@ -8,7 +8,7 @@ function App() {
     <>
     <Navbar/>
       <DaisyNav/>
-      <h1>Vite + React</h1>
+      
       
     </>
   )

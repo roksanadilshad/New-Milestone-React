@@ -39,7 +39,7 @@ const Navbar = () => {
             <span className='flex' onClick={() => setMenuOpen(!menuOpen)
             }>
             { menuOpen ? <X className='lg:hidden'/> :  <MenuIcon className='lg:hidden'/>}
-           <ul className='lg:hidden'>
+           <ul className={`lg:hidden absolute duration-5000 ${menuOpen ? "top-6" : "-top-64" } bg-blue-400 rounded-2xl p-2`}>
             {links}
            </ul>
             <h3>My Website</h3>
